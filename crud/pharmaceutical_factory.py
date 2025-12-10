@@ -1,0 +1,8 @@
+from crud.base import CRUDBase
+from models.pharmaceutical_factory import PharmaceuticalFactory
+from schemas.pharmaceutical_factory import PharmaceuticalFactoryCreate, PharmaceuticalFactoryUpdate
+
+class CRUDPharmaceuticalFactory(CRUDBase[PharmaceuticalFactory, PharmaceuticalFactoryCreate, PharmaceuticalFactoryUpdate]):
+    pass
+
+crud_pharmaceutical_factory = CRUDPharmaceuticalFactory(PharmaceuticalFactory)
