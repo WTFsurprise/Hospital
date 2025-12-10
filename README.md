@@ -1,4 +1,4 @@
-<img width="1308" height="1036" alt="c3f085a43f03af63861f1e465125cfa8" src="https://github.com/user-attachments/assets/7f568a87-815a-47cd-9848-1ef689088e55" /># Hospital
+# Hospital
 5003 Project
 This is a simulated Hospital Management System, primarily designed to familiarize with backend development and to learn about the use and optimization of MySQL databases.
 The system consists of 13 tables in total, which are: department、doctor、patient、pharmaceutical_factory、medicine、registration_window、registration、diagnosis、treatment、prescription、stock_warning、garage、parking。
